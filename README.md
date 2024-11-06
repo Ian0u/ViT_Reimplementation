@@ -7,11 +7,9 @@ This option is straightforward; however, ensure sufficient compute resources for
 **Steps:**
 1. Download the `.ipynb` file and connect to a GPU.
 2. By default, the global variables will work. If you wish to modify settings, then set the following global variables at the top of the script: 
-   - `mode = 'train'` (set to `'load'` if resuming from a checkpoint)
+   - `mode = 'train'` (set to `'load'` if resuming from a checkpoint). Note that if running for the first time, you must set `mode = 'train'`, as your current environment does not have any model checkpoints saved.
    - `dataset = 'CIFAR10'` (or `'MNIST'`)
    - `torch_save_dir = r"model.pth"` (specify model save location)
-   
-   - If training for the first time, set `mode = 'train'`. To load an existing model, set `mode = 'load'`.
 
 **Optional (Testing with Custom Image):**
 To test the model on custom images, follow these steps:
