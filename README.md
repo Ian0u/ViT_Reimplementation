@@ -2,7 +2,7 @@
 
 ### Option 1: Google Colab
 
-This option is straightforward; however, ensure sufficient compute resources for 50 epochs. The provided `.ipynb` file defaults to 5 epochs, which achieves ~70% accuracy on CIFAR-10 and ~99% on MNIST. For optimal CIFAR-10 results, run for 50 epochs.
+This option is straightforward; however, ensure sufficient compute resources for 50 epochs. The provided `.ipynb` file defaults to 5 epochs, which achieves ~70% accuracy on CIFAR-10 and ~99% on MNIST. For optimal results, run for 50 epochs on CIFAR-10 and 10 epochs on MNIST.
 
 **Steps:**
 1. Download the `.ipynb` file and connect to a GPU.
