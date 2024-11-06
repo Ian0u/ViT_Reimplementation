@@ -14,7 +14,7 @@ This option is straightforward; however, ensure sufficient compute resources for
 **Optional (Testing with Custom Image):**
 To test the model on custom images, follow these steps:
 
-3. Download image(s) from CIFAR-10 classes (e.g., Airplane, Automobile, etc.) or MNIST (digits 0-9). Supported formats: `.jpg`, `.jpeg`, `.png`. 
+3. Download image(s) from CIFAR-10 classes (e.g., random images of airplanes, dogs, cats, etc.) or MNIST (digits 0-9). Supported formats: `.jpg`, `.jpeg`, `.png`. 
    - Note: MNIST images are grayscale (28x28), and while the model performs well on the MNIST test set, it may not generalize well to other digit images.
 4. Upload the image(s) to a folder in the local directory of Google Colab.
 5. Set the following variable to the folder name (e.g., `CIFAR_testing`):
