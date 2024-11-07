@@ -28,10 +28,8 @@ The model will now predict images from the specified folder.
 
 ### Option 2: Local Machine (ViT.py)
 
-Ensure your local machine has a GPU for optimal performance.
-
 **Steps:**
-1. Download the `ViT.py` file and ensure CUDA is available.
+1. Download the `ViT.py` file and ensure your local machine has a GPU for optimal performance, with CUDA enabled.
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
