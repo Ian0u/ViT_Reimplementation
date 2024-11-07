@@ -2,7 +2,7 @@ The main goal of this project is to reimplement the paper [An Image is Worth 16x
 
 ## Running the Code
 
-### Option 1: Google Colab
+### Option 1: Google Colab (ViT.ipynb)
 
 This option is straightforward; however, ensure sufficient compute quota. The provided `.ipynb` file defaults to only 5 epochs, which achieves ~70% test accuracy on CIFAR-10 and ~99% on MNIST. For optimal results, run for 50 epochs on CIFAR-10 and 10 epochs on MNIST, but this would require more time and compute resources.
 
@@ -26,7 +26,7 @@ To test the model on custom images, follow these steps:
 
 The model will now predict images from the specified folder.
 
-### Option 2: Local Machine
+### Option 2: Local Machine (ViT.py)
 
 Ensure your local machine has a GPU for optimal performance.
 
