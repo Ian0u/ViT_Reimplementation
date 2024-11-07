@@ -4,7 +4,7 @@ The main goal of this project is to reimplement the paper [An Image is Worth 16x
 
 ### Option 1: Google Colab
 
-This option is straightforward; however, ensure sufficient compute quota. The provided `.ipynb` file defaults to 5 epochs, which achieves ~70% accuracy on CIFAR-10 and ~99% on MNIST. For optimal results, run for 50 epochs on CIFAR-10 and 10 epochs on MNIST, but this would require more time and compute resources.
+This option is straightforward; however, ensure sufficient compute quota. The provided `.ipynb` file defaults to only 5 epochs, which achieves ~70% accuracy on CIFAR-10 and ~99% on MNIST. For optimal results, run for 50 epochs on CIFAR-10 and 10 epochs on MNIST, but this would require more time and compute resources.
 
 **Steps:**
 1. Download the `.ipynb` file and connect to a GPU.
