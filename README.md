@@ -7,7 +7,7 @@ The main goal of this project is to reimplement the paper [An Image is Worth 16x
 This option is straightforward; however, ensure sufficient compute quota. The provided `.ipynb` file defaults to only 5 epochs, which achieves ~70% test accuracy on CIFAR-10 and ~99% on MNIST. For optimal results, run for 50 epochs on CIFAR-10 and 10 epochs on MNIST, but this would require more time and compute resources.
 
 **Steps:**
-1. Download the `.ipynb` file and connect to a GPU.
+1. Download the `ViT.ipynb` file and connect to a GPU.
 2. By default, the global variables will work. If you wish to modify settings, then set the following global variables at the top of the script: 
    - `mode = 'train'` (set to `'load'` if resuming from a checkpoint). Note that if running for the first time, you must set `mode = 'train'`, as your current environment does not have any model checkpoints saved.
    - `dataset = 'CIFAR10'` (or `'MNIST'`)
@@ -31,8 +31,9 @@ The model will now predict images from the specified folder.
 Ensure your local machine has a GPU for optimal performance.
 
 **Steps:**
-1. Install dependencies:
+1. Download the `ViT.py` file and ensure CUDA is available.
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
-2. Follow steps 2-5 from above. However, for step 5, since the folder is not located in a Google Colab directory, you must specify the full path to the folder's location on your local machine. For example:
+3. Follow steps 2-5 from above. However, for step 5, since the folder is not located in a Google Colab directory, you must specify the full path to the folder's location on your local machine. For example:
    - `CIFAR_testing_dir = r"C:/Downloads/CIFAR_testing"`
