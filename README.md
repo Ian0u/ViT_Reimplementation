@@ -2,7 +2,7 @@
 The main goal of this project is to reimplement the paper [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/pdf/2010.11929). The reimplementation also explores how using both [MixUp](https://arxiv.org/pdf/1710.09412) and [CutMix](https://arxiv.org/pdf/1905.04899v2) during training can improve the performance of the Vision Transformer. 
 
 ## Demo Video
-The demo video link is [here](https://youtu.be/EXG2I3gBZw8). This video introduces the project and demonstrates the main features of the code.
+The demo video link is [here](https://youtu.be/EXG2I3gBZw8). This video introduces the project and demonstrates the main features of the code. The video was uploaded onto YouTube by using an anonymous account to adhere to the double-blind review process.
 
 ## Running the Code
 
