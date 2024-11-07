@@ -1,4 +1,4 @@
-This project is a reimplementation of the paper ["An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"](https://arxiv.org/pdf/2010.11929). Additionally, this project explores how using MixUp and CutMix during training can improve the performance of the Vision Transformer. 
+This project is a reimplementation of the paper [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/pdf/2010.11929). Additionally, this project explores how using MixUp and CutMix during training can improve the performance of the Vision Transformer. 
 
 ## Running the Code
 
